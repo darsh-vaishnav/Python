@@ -26,18 +26,22 @@
 # Gender=input("Enter your Gender:")
 # Gender=Gender.lower().strip()
 # print(age ,Gender)
-# if age>=18:
-#     if Gender=="female":
-#         print("Seat is available for you!!")
-#     if Gender!="female":
-#             print("Seat is not available for you!!")    
-#Que 17
-marks=int(input("Enter the marks:"))
+# # if age>=18:
+# #     if Gender=="female":
+# #         print("Seat is available for you!!")
+# #     if Gender!="female":
+# #             print("Seat is not available for you!!")    
+# #Que 17
+# marks=int(input("Enter the marks:"))
 
-if marks >= 40:
-   if marks >=75:
-      print("Good")
-   else:
-      print("Passed")
-else:
-   print("Failed")      
+# if marks >= 40:
+#    if marks >=75:
+#       print("Good")
+#    else:
+#       print("Passed")
+# else:
+#    print("Failed")      
+#Que 23
+#Que 28
+number=int(input("Enter the number:"))
+print("Number is between the 10 and 50")

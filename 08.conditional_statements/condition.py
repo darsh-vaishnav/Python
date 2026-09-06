@@ -167,3 +167,94 @@ if age >= 18:
       print("Passed")
 else:
    print("Failed")
+
+#Que 20
+number=int(input("Enter the number:"))
+
+if number != 0:
+   if number >0:
+      print("Positive")
+   else:
+      print("Negative")   
+else:
+   print("Zero")
+
+#Que 21
+age=int(input("Enter the age:"))
+marks=int(input("Enter the marks: "))
+
+if age >=18 and marks >=40:
+   print("Eligible")
+else :
+   print("Not Eligible")
+
+#Que 22
+number=int(input("Enter the number:"))
+
+if number <10 or number>100:
+   print("Special")
+else:
+   print("not special")
+
+#Que 23
+user_age=int(input("Enter the age:"))
+has_id=bool(input("Enter the user id (True/False):")) =="True"
+
+if age >= 18 :
+   if has_id is True:
+      print("Allowed")
+   else:
+      print("Not Allowed")
+
+#Que 24
+first_number=int(input("Enter the first_number:"))
+second_number=int(input("Enter the second number:"))
+
+if first_number>10 and second_number>10 :
+   print("Both are greater than 10")
+
+#Que 25
+number=int(input("Enter the number:"))
+
+if number <0 or number>100:
+    print("Special")
+
+#Que 26
+is_closed=input("Is the door closed? (True/False):")
+
+if not (is_closed=="True"):
+   print("OPen")
+else:
+   print("Closed")
+
+#Que 27
+number=("Enter the number:")
+
+if number >=10 and number<=50:
+   print("Between the 10 and 50")
+else:
+   print("Not between 10 and 50")
+
+#Que 28
+number = int(input("Enter the number: "))
+
+if number >= 10 and number <= 50:
+    print("Number is between 10 and 50")
+
+#Que 29
+is_student = True
+has_id = True
+has_ticket = True
+
+if is_student and has_id and has_ticket:
+    print("Allowed")
+
+ # Que 30
+age=int(input("Enter the age:"))   
+marks=int(input("Enter the marks:"))
+has_id=input("Do you have an ID? (True/False):") =="True"
+
+if age >=18 and marks >=40 and has_id:
+   print("Eligible")
+else:
+   print("Not eligible")   
