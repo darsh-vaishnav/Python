@@ -43,19 +43,5 @@
 #    print("Failed")      
 #Que 23
 #Que 28
-# 
-#cw 2
-first_number=int(input("Enter the First number:"))
-second_number=int(input("Enter the Second number:"))
-operations=int(input("Operations you can perform: \n 1.Addition \n 2.Substraction \n 3.Multiplication \n 4.Divison \n 5.Floor Divison \n Enter the Operation you Want to") )
-
-if operations == 1:
-    print(f"Addition is:{first_number+second_number}")
-elif operations == 2:
-    print(f"Substraction is:{first_number-second_number}")
-elif operations == 3:
-    print(f"Multiplication is:{first_number*second_number}")
-elif operations == 4:
-    print(f"Divison is:{first_number/second_number}")
-elif operations == 5:
-   print(f"Floor Divison is:{first_number//second_number}")
+number=int(input("Enter the number:"))
+print("Number is between the 10 and 50")
