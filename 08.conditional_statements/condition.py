@@ -9,6 +9,8 @@ if age>=18:
     if Gender!="female":
             print("Seat is not available for you!!") 
 
+
+
 #Que 1
 number=int(input("Enter the Number:"))
 if number >= 10:
