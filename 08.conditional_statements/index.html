@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Calculator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            min-height: 100vh;
+        }
+
+        .calculator {
+            background-color: white;
+            width: 350px;
+            padding: 30px;
+
+            border-radius: 15px;
+
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+
+            box-sizing: border-box;
+
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+
+            margin-top: 25px;
+            padding: 12px;
+
+            border: none;
+            border-radius: 5px;
+
+            background-color: #333;
+            color: white;
+
+            font-size: 17px;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        #result {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h1>Simple Calculator</h1>
+
+        <label for="firstNumber">First Number:</label>
+
+        <input
+            type="number"
+            id="firstNumber"
+            placeholder="Enter first number"
+        >
+
+
+        <label for="secondNumber">Second Number:</label>
+
+        <input
+            type="number"
+            id="secondNumber"
+            placeholder="Enter second number"
+        >
+
+
+        <label for="operation">Choose Operation:</label>
+
+        <select id="operation">
+
+            <option value="1">
+                1. Addition
+            </option>
+
+            <option value="2">
+                2. Subtraction
+            </option>
+
+            <option value="3">
+                3. Multiplication
+            </option>
+
+            <option value="4">
+                4. Division
+            </option>
+
+            <option value="5">
+                5. Floor Division
+            </option>
+
+        </select>
+
+
+        <button onclick="calculate()">
+            Calculate
+        </button>
+
+
+        <h2 id="result">
+            Result will appear here
+        </h2>
+
+    </div>
+
+
+    <script>
+
+        function calculate() {
+
+            let first_number =
+                Number(document.getElementById("firstNumber").value);
+
+            let second_number =
+                Number(document.getElementById("secondNumber").value);
+
+            let operations =
+                Number(document.getElementById("operation").value);
+
+
+            let result;
+
+
+            if (operations === 1) {
+
+                result = first_number + second_number;
+
+                document.getElementById("result").innerText =
+                    "Addition is: " + result;
+
+            }
+
+            else if (operations === 2) {
+
+                result = first_number - second_number;
+
+                document.getElementById("result").innerText =
+                    "Subtraction is: " + result;
+
+            }
+
+            else if (operations === 3) {
+
+                result = first_number * second_number;
+
+                document.getElementById("result").innerText =
+                    "Multiplication is: " + result;
+
+            }
+
+            else if (operations === 4) {
+
+                if (second_number === 0) {
+
+                    document.getElementById("result").innerText =
+                        "Cannot divide by zero!";
+
+                }
+
+                else {
+
+                    result = first_number / second_number;
+
+                    document.getElementById("result").innerText =
+                        "Division is: " + result;
+
+                }
+
+            }
+
+            else if (operations === 5) {
+
+                if (second_number === 0) {
+
+                    document.getElementById("result").innerText =
+                        "Cannot divide by zero!";
+
+                }
+
+                else {
+
+                    result =
+                        Math.floor(first_number / second_number);
+
+                    document.getElementById("result").innerText =
+                        "Floor Division is: " + result;
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
