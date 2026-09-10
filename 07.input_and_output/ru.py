@@ -1,47 +1,46 @@
-# #Que 8                
-# number=int(input("Enter a number:"))
-# if number%2==0:
-#    print("Number is even ")
-# else:
-#    print("Number is odd")
-# marks=int(input("Enter the marks:"))
-# if marks >= 90:
-#    print("A")
-# elif marks  >= 75:
-#    print("B")
-# elif marks  >= 60 :
-#    print("C")   
-# elif marks  >= 40:
-#    print("D")
-# elif marks  <= 40:
-#    print("F")   
-# number=int(input("Enter number:"))
-# if number >= 1:
-#    print("Positive")
-# elif number == 0 :
-#    print("Zero")
-# elif number <=-1 :
-#    print("Negative")      
-# age=int(input("Enter Your Age:").split()[0])
-# Gender=input("Enter your Gender:")
-# Gender=Gender.lower().strip()
-# print(age ,Gender)
-# # if age>=18:
-# #     if Gender=="female":
-# #         print("Seat is available for you!!")
-# #     if Gender!="female":
-# #             print("Seat is not available for you!!")    
-# #Que 17
-# marks=int(input("Enter the marks:"))
+# number=int(input("Enter the 3 Digit number:"))
+# a=number%10
+# number=number//10
+# b=number%10
+# number=number//10
+# c=number%10
+# print(a+b+c)
+# #____________________________________or_________________________________________
 
-# if marks >= 40:
-#    if marks >=75:
-#       print("Good")
-#    else:
-#       print("Passed")
-# else:
-#    print("Failed")      
-#Que 23
-#Que 28
-number=int(input("Enter the number:"))
-print("Number is between the 10 and 50")
+# num=int(input("ENTER THREE DIGIT NUMBER:"))
+
+
+# #Cw 2
+# for i in range(1,20):
+#     if i%2==0:
+#        print(f"{i} is even!")
+
+# #Tr
+# number=int(input("Enter the number:"))
+# for number in range(1,number+1):
+#     if number%2==0:
+#        print(f"{number} is even!")
+#Task 22
+account_balance=int(input("Enter the account balance:"))
+withdrawl_amount=int(input("Enter the Withdrawl amount:"))
+
+if withdrawl_amount:
+   print("Withdrawal successful")
+   if withdrawl_amount<0:
+      print("Withdrawal amount is greater than 0")
+      if withdrawl_amount%100==0:
+          print("Withdrawal amount is divisible by 100")   
+          if withdrawl_amount>account_balance:
+             print ("Withdrawal amount is not greater than the balance")
+             if (withdrawl_amount)>500 :
+                print("After withdrawal, at least ₹500 must remain") 
+             else:
+                print("Invalide transiction")   
+else:
+   print("Invalide transiction") 
+
+#Task 23
+username=input("Enter the username:").lower().split()
+password=input("Enter the Password:").lower().split()
+
+

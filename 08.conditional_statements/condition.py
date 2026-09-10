@@ -10,20 +10,16 @@ if age>=18:
             print("Seat is not available for you!!") 
 
 #cw2
-first_number=int(input("Enter the First number:"))
-second_number=int(input("Enter the Second number:"))
-operations=int(input("Operations you can perform: \n 1.Addition \n 2.Substraction \n 3.Multiplication \n 4.Divison \n 5.Floor Divison \n Enter the Operation you Want to") )
+operation=int(input("Enter aNumber of Following Operations that You Want to preform:\n 1.Addition \n 2.Substraction \n 3.Multiplication \n 4.Divison \n 5.Floor Divison \n Enter the Operation you Want to:"))
+if operation==1 or operation==2 or operation==3 or operation==4 or operation==5:
+   first_number=int(input("Enter the First number:"))
+   second_number=int(input("Enter the Second number:"))
 
-if operations == 1:
-    print(f"Addition is:{first_number+second_number}")
-elif operations == 2:
-    print(f"Substraction is:{first_number-second_number}")
-elif operations == 3:
-    print(f"Multiplication is:{first_number*second_number}")
-elif operations == 4:
-    print(f"Divison is:{first_number/second_number}")
-elif operations == 5:
-   print(f"Floor Divison is:{first_number//second_number}")
+
+ 
+else:
+   print("Invalid operation Please try again!!")       
+
 
 #Que 1
 number=int(input("Enter the Number:"))
