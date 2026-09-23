@@ -26,19 +26,35 @@
 # print("  ***")
 # print(" ****")
 # print("*****")
-num=int(input("Enter row value:"))
-for i in range(1,num):
-    for j in range(1,num-i,):
-        print("*",end="")
-    for k in range(1,i+1):
-        print(" ",end="")
-    print()   
+# num=int(input("Enter row value:"))
+# for i in range(1,num):
+#     for j in range(1,num-i,):
+#         print("*",end="")
+#     for k in range(1,i+1):
+#         print(" ",end="")
+#     print()   
 
-num=int(input("Enter row value:"))
-for i in range(1,num):
-    for j in range(1,num-i,):
-        print(" ",end="")
-    for k in range(1,i+1):
-        print("*",end="")
-    print()    
+# num=int(input("Enter row value:"))
+# for i in range(1,num):
+#     for j in range(1,num-i,):
+#         print(" ",end="")
+#     for k in range(1,i+1):
+#         print("*",end="")
+#     print()    
 
+# print("*   *")
+# print("*   *")
+# print("*   *")
+# print("*   *")
+# print("*****")
+# for i in range(1,6)
+#   print("")
+
+
+for i in range(1, 6):
+    if i == 5:
+        print("*" * 5)
+    else:
+        print("*" + " " * 3 + "*")
+
+   
