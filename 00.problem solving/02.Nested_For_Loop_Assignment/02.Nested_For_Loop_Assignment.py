@@ -82,21 +82,7 @@
 #         print(chr(64 + i), end=" ")
 #     print()
 
-# #13
-# for i in range(1, 6):
-#     for j in range(i):
-#         print(chr(64 + i), end=" ")
-#     print()
-
-# 12. Repeated Alphabet Pattern
-
-for i in range(5):
-    for j in range(i + 1):
-        print(chr(65 + i), end=" ")
-    print()
-
-
-# 13. Odd Number Pattern
+# 13
 
 for i in range(1, 6):
     for j in range(1, i + 1):
@@ -104,7 +90,7 @@ for i in range(1, 6):
     print()
 
 
-# 14. Even Number Pattern
+# 14
 
 for i in range(1, 6):
     for j in range(1, i + 1):
@@ -112,7 +98,7 @@ for i in range(1, 6):
     print()
 
 
-# 15. 5×5 Star Square
+# 15
 
 for i in range(5):
     for j in range(5):
@@ -120,7 +106,7 @@ for i in range(5):
     print()
 
 
-# 16. 5×5 Number Square
+# 16
 
 for i in range(5):
     for j in range(1, 6):
@@ -128,7 +114,7 @@ for i in range(5):
     print()
 
 
-# 17. Row-wise Numbers
+# 17
 
 num = 1
 
@@ -139,7 +125,7 @@ for i in range(3):
     print()
 
 
-# 18. Print 1 to 20 in 4 Rows
+# 18
 
 num = 1
 
@@ -150,7 +136,7 @@ for i in range(4):
     print()
 
 
-# 19. Print Coordinate Pairs
+# 19
 
 for i in range(1, 4):
     for j in range(1, 4):
@@ -158,22 +144,22 @@ for i in range(1, 4):
     print()
 
 
-# 20. Print All Number Combinations
+# 20
 
 for i in range(1, 4):
     for j in range(1, 4):
         print(i, j)
 
 
-# 21. 10×10 Multiplication Grid
+# 21
 
 for i in range(1, 11):
     for j in range(1, 11):
-        print(i * j, end="\t")
+        print(i * j, end="")
     print()
 
 
-# 22. Repeated Number Pattern
+# 22
 
 for i in range(1, 6):
     for j in range(i):
@@ -181,7 +167,7 @@ for i in range(1, 6):
     print()
 
 
-# 23. Decreasing Number Pattern
+# 23
 
 for i in range(5, 0, -1):
     for j in range(1, i + 1):
@@ -189,7 +175,7 @@ for i in range(5, 0, -1):
     print()
 
 
-# 24. Reverse Number Pattern
+# 24
 
 for i in range(5, 0, -1):
     for j in range(5, 5 - i, -1):
@@ -197,7 +183,7 @@ for i in range(5, 0, -1):
     print()
 
 
-# 25. Repeated Row Number Pattern
+# 25
 
 for i in range(1, 6):
     for j in range(5):
