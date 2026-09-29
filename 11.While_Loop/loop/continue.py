@@ -14,8 +14,49 @@
 #     total=total+number
 #     number=int(input(""))
 
-Number=int(input("Enter the Number(>100):"))
-Origin=Number
-rev=0
-while Number !=0:
-    print()
+# str1 = input("Enter the String:")
+# rst = ""
+# i = len(str1) - 1
+# while i >= 0:
+#     rstr += str1[i]
+#     i -= 1
+# if str1 == rstr:
+#     print("string is palindrom")
+# else:
+#     print("string is not palindrom")    
+
+# str = input("Enter the String:")
+# palindrom = True
+# i = 0
+# j=len(str)-1
+
+
+# while (i<j):
+#     if str[i]==str[j]:
+#      i += 1
+#      j -= 1
+#     else:
+#        flag=False
+#        i=j
+# if flag :
+#     print("String is Palindrom")
+# else:
+#     print("String is not palindrom")    
+
+##
+# number = int(input("Enter the number:"))
+
+# while number >0:
+#    digit = number % 10
+#    print(digit)
+#    number=number//10
+
+number = int(input("Enter the number:"))
+
+total=0
+while number >0:
+   digit = number % 10
+   total =total+digit
+   number=number//10
+print("Sum:",total)
+
