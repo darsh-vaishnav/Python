@@ -51,12 +51,41 @@
 #    print(digit)
 #    number=number//10
 
-number = int(input("Enter the number:"))
+# number = int(input("Enter the number:"))
 
-total=0
-while number >0:
-   digit = number % 10
-   total =total+digit
-   number=number//10
-print("Sum:",total)
+# total=0
+# while number >0:
+#    digit = number % 10
+#    total =total+digit
+#    number=number//10
+# print("Sum:",total)
 
+# number = int(input("Enter a number: "))
+
+# reverse = 0
+
+# while number > 0:
+#     digit = number % 10
+#     reverse = reverse * 10 + digit
+#     number = number // 10
+
+# print("Reverse:", reverse)
+
+# #
+# number = int(input("Enter a number: "))
+
+# reverse = ""
+
+# while number > 0:
+#     digit = number % 10
+#     digit=str(digit)
+#     reverse = reverse + digit
+#     number = number // 10
+
+# print("Reverse:", int(reverse))
+
+##
+i = 1
+
+while i <= 5:
+    print(i)

@@ -6,3 +6,6 @@ if n > 0:
         number += 1
 else:
     print("Enter a positive integer.")
+
+# here firstly the n will take the input of the number
+#     
