@@ -33,22 +33,32 @@
 #      print("The number is divisible by 17")
 #  break
 
+
+#32
+
+#problem 1
 # for i in range (1,20):
 #     if i%2==0:
 #        continue
 #     print(i)   
 
+
+
+#problem 2
 # numbers = [10, -2, 30, -5, 40, -8,50]
 # for i in numbers:
 #    if i<=0:
 #       continue
 #    print(i)
 
+
+#problem 3
 # for i in range (1,20):
 #     if i%3==0:
 #         continue
 #     print(i)
 
+#problem 4
 # numbers = [5, 12, 8, 21, 30, 7]
 # for i in numbers:
 #     if i<10:
@@ -135,9 +145,16 @@
 #     elif i>0:
 #         print(i)
 
+# challange 3
 
-for i in range(1, 5):
-    if i == 3:
-        pass
+# number=[10,20,30,40,50,60,70,80,90]
+# search=int(input("Enter the nunber:"))
+# for i in number:
+#     if i == search:
+#         print("Number found")
+#         break
+#     else :
+#         print("Number not found")
 
-    print(i)
+
+
