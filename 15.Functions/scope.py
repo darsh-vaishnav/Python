@@ -1,3 +1,80 @@
+# #Question 1
+# def greet(name):
+#     print("Hello", name)
+
+# greet("Asha")
+# greet("Rahul")
+
+# # Hello Asha
+# # Hello Asha
+
+# Question 2
+# def subtract(a, b):
+#     return a - b
+
+# print(subtract(8, 3))
+# print(subtract(3, 8))
+
+# # 5
+# #-5
+
+# Question 3
+# def calculate(number):
+#     return number * 2
+
+# result = calculate(5)
+# print(result + 3)
+# #13
+
+# Question 4
+# def greet(name="Guest"):
+#     return "Hello " + name
+
+# print(greet())
+# print(greet("Asha"))
+# # Hello Guest
+# # Hello Asha
+
+# Question 5
+# def values():
+#     return 10, 20
+
+# a, b = values()
+# print(a + b)
+# # 30
+
+# Question 6
+# def show(a, b=5):
+#     print(a, b)
+
+# show(10)
+# show(10, 20)
+# show(a=7, b=3)
+# # (10,5)
+# # (10,20)
+# # (7,3)
+
+# Question 7
+# def demo():
+#     print("A")
+#     return 5
+#     print("B")
+
+# print(demo())
+# #A
+# # 5
+
+
+# Question 8
+# def total(a, b, c=10):
+#     return a + b + c
+
+# print(total(1, c=3, b=2))
+# #6
+
+
+
+
 # 1
 def welcome():
     print("Welcome to Python")
@@ -226,15 +303,16 @@ student_details(city="Ahmedabad", name="Darsh", age=18)
 
 # 20
 def bill(item, quantity=1, price=100):
-    return quantity * price
+    bill=quantity * price
+    return item,bill
 
 print(bill("Pen"))
 print(bill("Book", 3, 50))
 print(bill(item="Pencil", price=10, quantity=5))
 
-# 100
-# 150
-# 50
+# Pen,100
+# Book,150
+# Pencil,50
 
 # 21
 def analyze_number(number):
@@ -305,3 +383,69 @@ print(apply_discount(1000, 20))
 
 # 1000.0
 # 800.0
+
+# Que 25
+def calculate_pay(hours, rate=200, bonus=0):
+    return hours * rate + bonus
+
+print(calculate_pay(40))                # Uses default rate (200) and bonus (0) -> 8000
+print(calculate_pay(40, 250))           # Overrides rate -> 10000
+print(calculate_pay(40, 250, 500))      # Overrides rate and bonus -> 10500
+print(calculate_pay(40, bonus=300))     # Positional for hours, keyword for bonus -> 8300
+
+
+# Que 26
+def get_coordinates(x=0, y=0):
+    return x, y
+
+
+print(get_coordinates())       # Uses defaults -> (0, 0)
+print(get_coordinates(x=10))   # Only x specified -> (10, 0)
+print(get_coordinates(y=25))   # Only y specified -> (0, 25)
+
+# Que 27
+def compare(a, b):
+    if a > b:
+        status = "A is greater"
+        diff = a - b
+    elif b > a:
+        status = "B is greater"
+        diff = b - a
+    else:
+        status = "Equal"
+        diff = 0
+    return status, diff
+
+print(compare(10, 4))   # ('A is greater', 6)
+print(compare(3, 8))    # ('B is greater', 5)
+print(compare(5, 5))    # ('Equal', 0)
+
+# Que 28
+def convert_temperature(value, scale="C"):
+    if scale == "C":
+        return (value * 9/5) + 32   # Celsius to Fahrenheit
+    else:
+        return (value - 32) * 5/9   # Fahrenheit to Celsius
+
+print(convert_temperature(0, "C"))    # 0°C to °F -> 32.0
+print(convert_temperature(100, "C"))  # 100°C to °F -> 212.0
+print(convert_temperature(98.6, "F")) # 98.6°F to °C -> 37.0
+
+# Que 29
+def calculate_result(marks, passing_marks=35):
+    if marks >= passing_marks:
+        return "Pass"
+    else:
+        return "Fail"
+
+
+print(calculate_result(40))      # Default pass mark 35 -> Pass
+print(calculate_result(30))      # Default pass mark 35 -> Fail
+print(calculate_result(45, 50))  # Custom pass mark 50 -> Fail
+
+# Que 30
+def order_summary(item, quantity=1, price=100, delivery_fee=40):
+    return (quantity * price) + delivery_fee
+
+
+print(order_summary("Book", delivery_fee=60))  # (1 * 100) + 60 -> 160
