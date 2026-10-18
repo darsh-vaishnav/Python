@@ -5,4 +5,9 @@ while i <=3:
     while j<=3:
         print(i,j)
         j+=1
-    i+=1   
+    i+=1 
+# for 
+for i in range (1,4):
+       for j in range (1,4):
+            print(i,j) 
+print()    

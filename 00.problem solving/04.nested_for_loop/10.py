@@ -8,3 +8,10 @@ while i<n:
         j+=1
     print()
     i+=1 
+
+# for
+
+n = int(input("Enter the number:"))
+for i in range (1,1+n):
+    for j in range(1,1+n):
+        
