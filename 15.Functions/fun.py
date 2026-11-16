@@ -1,47 +1,47 @@
-# #Que 1
-# def greet():
-#     print("Hello,Python!")
-# greet()    
+#Que 1
+def greet():
+    print("Hello,Python!")
+greet()    
 
-# # Que 2
-# def show_name():
-#     print("Darsh")
-# show_name()
-# show_name()   
-# show_name()
+# Que 2
+def show_name():
+    print("Darsh")
+show_name()
+show_name()   
+show_name()
 
-# # Que 3
-# def print_line():
-#     print("--------------------")
-# print_line()
-# print("Heading")  
-# print_line()
+# Que 3
+def print_line():
+    print("--------------------")
+print_line()
+print("Heading")  
+print_line()
 
-# # Que 4
-# def show_rules():
-#     print("Keep Silence")
-#     print("Do not eat in the class")
-#     print("Maintain the cleaneness in the class")
-# show_rules()    
+# Que 4
+def show_rules():
+    print("Keep Silence")
+    print("Do not eat in the class")
+    print("Maintain the cleaneness in the class")
+show_rules()    
 
-# # Que 5
-# def show_square():
-#     print("****")
-# show_square()
-# show_square()    
-# show_square()
-# show_square()
+# Que 5
+def show_square():
+    print("****")
+show_square()
+show_square()    
+show_square()
+show_square()
 
-# # Que 6
+# Que 6
 
-#1
+# 1
 # def greet():
 #     print("Hello")
 
 # print("Start")
 # output:Start
 
-#2
+# 2
 # def greet():
 #     print("Hello")
 
@@ -50,7 +50,7 @@
 
 # output:Hello Hello
 
-#3
+# 3
 # def first():
 #     print("A")
 
@@ -63,7 +63,7 @@
 
 # output:B A B
 
-#4
+# 4
 # def show():
 #     print("Inside")
 
@@ -91,12 +91,12 @@
 # def task():
 #     print("Task")
 
-# task
+# task()
 # print("Done")
 
 # # output:Done
 
-#7
+# 7
 # def greet():
 #     print("Hello")
 
@@ -114,23 +114,23 @@
 
 # # output:C A B
 
-# ------------13. Coding Practice Problems-----------------------
+# # ------------13. Coding Practice Problems-----------------------
 
-#1 
+# # 1 
 # def greet():
 #     print("Hello,Python!")
 
 # greet()
 
-#2
+# # 2
 
 # def show_name():
-#     print("Pavitra")
+#     print("Darsh")
 # show_name()
 # show_name()
 # show_name()
 
-#3 
+# # 3 
 
 # def print_line():
 #     print("--------------------")
@@ -138,14 +138,14 @@
 # print("Hello Everyone!")
 # print_line()
 
-#4 
+# # 4 
 # def show_rules():
 #     print("Maintain silencw in your classroom")
 #     print("Uniform and id card is compulsory")
 #     print("Maintain disclipline ")
 # show_rules()
 
-#5 
+# # 5 
 
 # def show_square():
 #     for i in range(1,5):
@@ -154,7 +154,7 @@
 #         print("")
 # show_square()
 
-#6 
+# # 6 
 # def show_menu():
 #     print("Pizza")
 #     print("Sandwich")
@@ -163,7 +163,7 @@
 # show_menu()
 # show_menu()
 
-#7 
+# # 7 
 # def morning_message():
 #     print("Good morning!")
 # def evening_message():
@@ -171,15 +171,15 @@
 # evening_message()
 # morning_message()
 
-#8 
+# # 8 
 # def show_student_card():
 #     print("Institute name:Coding Gita")
-#     print("Name:Pavitra")
-#     print("Roll no:21")
+#     print("Name:Darsh")
+#     print("Roll no:19")
 
 # show_student_card()
 
-#9 
+# # 9 
 # def print_numbers():
 #     print(1)
 #     print(2)
@@ -190,10 +190,10 @@
 # print_numbers()
 # print_numbers()
 
-# 10 
-# *
-# **
-# ***
+# # 10 
+# # *
+# # **
+# # ***
 
 # def show_pattern():
 #     for i in range(1,4):
@@ -203,7 +203,7 @@
 # show_pattern()
 
 
-#11 
+# # 11 
 
 # def show_header():
 #         print("<html>")
@@ -216,16 +216,16 @@
 # show_body()
 # show_footer()
 
-#12 
+# # 12 
 
 # def show_separator():
 #     print("====================")
 
-# print("hello everyone my name is pavitra")
+# print("hello everyone my name is Darsh")
 # show_separator()
 # print("I am a first year student at coding gita")
 
-#13 
+# # 13 
 # def step_one():
 #     print(1)
 # def step_two():
@@ -236,7 +236,7 @@
 # step_one()
 # step_two()
 
-#14 
+# # 14 
 
 # def show_table_heading():
 #     print("Student name      Student surname")
@@ -244,7 +244,7 @@
 # show_table_heading()
 # print("Angel             Patel")
 
-#15 
+# # 15 
 # def stars():
 #     for i in range(1,6):
 #         print("*",end="")
@@ -254,13 +254,13 @@
 # stars()
 # stars()
 
-#16 
+# 16 
 # def show_welcome():
 #     print("Welcome to Coding gita and experiance the CSE-AI course with us")
 # show_welcome()
 # print("Coding Gita")
 
-#17 
+# 17 
 
 # def show_help():
 #     print("perform simple calculations like:")
@@ -272,14 +272,14 @@
 
 # show_help()
 
-#18 
+# 18 
 # def print_lines():
 #     print("-----------------------------")
 # print_lines()
 # print("Here are the reciept details:")
 # print_lines()
 
-#19 
+# 19 
 # def print_box():
 #     print('''
 #     hello everyone welcome to coding gita
@@ -288,7 +288,7 @@
 # print_box()
 # print_box()
 
-#20 
+# 20 
 # def title():
 #     print("Coding gita")
 # def menu():
@@ -303,16 +303,16 @@
 # closing_message()
 
 
-#21
+# 21
 # def greet():
 #     print("Hello")
 
-#22
+# 22
 # def welcome():
 #     print("Welcome")
 # welcome()
 
-#23
+# 23
 # def show():
 #     print("Hello")
 # show()
@@ -324,7 +324,7 @@
 
 # print_report()
 
-#25
+# 25
 # def a():
 #     print("A")
 
@@ -370,7 +370,7 @@
 #     print("welcome to coding gita")
 # fun_def2()
 
-#30
+# 30
 # def greet():
 #     print("Inside the function")
 
